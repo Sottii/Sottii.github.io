@@ -9,8 +9,9 @@
   <body class="py-4 px-4" >
 
     <!-- BODY -->
-    <header class="row">
-      <div class="col-6 col-md-7 col-xl-8 ">
+    <header class="row gx-0">
+      <!-- CUMPRIMENTO -->
+      <section class="col-6 col-md-7 col-xl-8 ">
         <h2 class="py-4">
           Bom dia!
         </h2>
@@ -23,8 +24,9 @@
         <h2 class="py-4">
           Criado em Capanema - PR
         </h2>
-      </div>
-      <div class="px-4 d-flex flex-row-reverse col-6 col-md-5 col-xl-4" ov>
+      </section>
+      <!-- FOTO FORMATURA  -->
+      <section class="px-4 d-flex flex-row-reverse col-6 col-md-5 col-xl-4">
         <div class="card">
           <img src="images/formatura.jpg" class="card-img-top">
           <div class="card-body text-center">
@@ -34,8 +36,9 @@
             <a href="https://www.instagram.com/p/CmsfntFrH-t/?img_index=1" target="_blank" tabindex="-1" class="btn btn-primary col-8">VEJA MAIS</a>
           </div>
         </div>
-      </div>
+      </section>
     </header>
+    <!-- PONTOS SOBRE MIM  -->
     <section class="py-5">
       <h2>Alguns pontos sobre mim</h2>
       <ul>
@@ -51,21 +54,29 @@ int main(){
 
       </ul>
     </section>
-
+    <!-- FILMES FAVORITOS  -->
     <section>
       <h2>Filmes favoritos</h2>
-      <ol type="I">
+      <ol class="row" type="I">
         <li>Interestelar</li>
         <li>Super Herói: O filme</li>
         <li>Deadpool</li>
         <li>history of the entire world, i guess</li>
       </ol>
-      <span>
-        O ultimo, por mais que não seja um filme é um video no Youtube maravilhoso.  <a target="_blank" href="https://www.youtube.com/watch?v=xuCn8ux2gbs"><img src="images/historyoftheentireworld.png" alt="history of the entire world"></a>
-      </span>
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <h4><span>
+        O ultimo, por mais que não seja um filme é um video no Youtube maravilhoso. 
+      </span></h4>
+      <a target="_blank" href="https://www.youtube.com/watch?v=xuCn8ux2gbs">
+        <img src="images/historyoftheentireworld.png" alt="history of the entire world">
+      </a>
+      
     </section>
-  
-    <section>
+    <!-- MUSICAS FAVORITAS -->
+    <section class="py-4">
       <h2>Músicas</h2>
       <p>Tenho um gosto musical bem aleatório, mas tenho um gosto especial por rock</p>
       <ol reversed>
@@ -75,42 +86,22 @@ int main(){
         <li><a href="https://youtu.be/i0FJNsbgqjc?si=nVKMKMQoI-hNB0HV">Déjà Vu - Pitty</a></li>
       </ol>
     </section>
-
-    <section>
-      <div class="px-4 d-flex flex-row-reverse col-6 col-md-5 col-xl-4" ov>
+    <!-- SOBRE A KIARA  -->
+    <section class="col-6 col-md-5 col-xl-4">
+      <div class="d-flex flex-row-reverse ">
         <div class="card">
           <img src="images/kiara.jpeg" class="card-img-top">
           <div class="card-body text-center">
             <h4 class="card-title">Minha Kiarinha :)</h4>
             <p class="card-text">Uma fofa, perfeita, sem defeitos que foi resgatada de umas pessoas que não cuidavam.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        
+            <p>Uma <b>pessoinha</b> melhor que muitas pessoas</p>
           </div>
         </div>
       </div>
-
-      <h2>Minha Kiarinha</h2>
-      <table>
-        <tr>
-          <td rowspan="3">
-            <img src="images/kiara.jpeg" height="500" alt="Kiara">
-          </td>
-          <td valign="top">
-            <h3>Uma fofa, perfeita, sem defeitos que foi resgatada de umas pessoas que não cuidavam.</h3> 
-          </td>
-        </tr>
-        <tr>
-          <td valign="bottom">
-            <p>Uma <b>pessoinha</b> melhor que muitas pessoas</p>
-          </td>
-        </tr>
-      </table>
     </section>
     <!-- FOOTER SECTION -->
-    <footer>
-      <button type="button"><a href="#">Voltar ao topo</a></button>
-      <hr>
-      <hr>
+    <footer class="py-5 px-5">
+      <a href="#" class="btn btn-primary float-end" >Voltar ao topo</a>
     </footer>
 
 
